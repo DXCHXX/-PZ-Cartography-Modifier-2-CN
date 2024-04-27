@@ -1,0 +1,109 @@
+Sandbox_CN = {
+
+    Sandbox_CartographyModifier = "地图绘制修饰符",
+
+
+    Sandbox_CartographyModifierAdminIsNotRestricted = "管理员不受限制",
+    Sandbox_CartographyModifierAdminIsNotRestricted_tooltip = "TRUE = 管理员不会受到诸如建筑物不可见等限制;FALSE = 管理员将会受到这些限制.",
+
+
+    Sandbox_CartographyModifieritemGPSByPass                    = "itemGPS MOD 地图通过权限",
+    Sandbox_CartographyModifieritemGPSByPass_tooltip            = "如果为 TRUE 并且存在 itemGPS MOD: 如果你开启了一个 GPS，那么迷你地图上的地图绘制结构设置将应用于大地图.<br>",
+
+    Sandbox_CartographyModifieritemGPSdarkMod                    = "itemGPS MOD 黑屏纹理",
+    Sandbox_CartographyModifieritemGPSdarkMod_tooltip            = "如果为 TRUE 并且存在 itemGPS MOD: 某些 GPS 的纹理将会变暗，以便获得良好的视觉效果呈现.<br>",
+
+
+    Sandbox_CartographyModifierBrightnessfactorDarkerMap                    = "更暗地图上结构亮度调节",
+    Sandbox_CartographyModifierBrightnessfactorDarkerMap_tooltip            = "如果存在更暗地图 MOD，并且“地图上均匀颜色”设为 FALSE，则你可以调整地图上结构 (道路, 森林等) 的整体亮度: <br><br>0 = 非常暗<br>5 = 暗<br>10 = 亮<br>",
+
+    Sandbox_CartographyModifierBrightnessBackGroundfactorDarkerMap          = "更暗地图背景亮度调节",
+    Sandbox_CartographyModifierBrightnessBackGroundfactorDarkerMap_tooltip  = "如果存在更暗地图 MOD，则你可以调整地图背景的亮度: <br><br>0 = 非常暗<br>5 = 暗<br>10 = 亮<br>",
+
+    Sandbox_CartographyModifierBrightnessUnvisitefactorDarkerMap            = "更暗地图未探索区域亮度调节",
+    Sandbox_CartographyModifierBrightnessUnvisitefactorDarkerMap_tooltip    = "如果存在更暗地图 MOD，则你可以调整地图及迷你地图上未探索区域 (迷雾部分) 的亮度: <br><br>0 = 非常暗<br>5 = 暗<br>10 = 亮<br>",
+
+
+    Sandbox_CartographyModifierUniformColorOnWorldMap                  = "地图: 统一颜色",
+    Sandbox_CartographyModifierUniformColorOnWorldMap_tooltip          = "你可以在地图上将所有结构 (如道路, 森林等) 设置为统一的颜色: <br><br>TRUE = 全部同色<br>FALSE = 原版样式",
+
+    Sandbox_CartographyModifierAdditionalColorOnWorldMap               = "地图: 全局色彩校正",
+    Sandbox_CartographyModifierAdditionalColorOnWorldMap_tooltip       = "你可以设置地图上所有结构的全局色彩校正值: <br><br>0 = 黑色<br>120 = 深灰色<br>150 = 浅灰色<br>",
+
+    Sandbox_CartographyModifierBuildingStyleOnWorldMap                 = "地图: 建筑显示方式",
+    Sandbox_CartographyModifierBuildingStyleOnWorldMap_tooltip         = "选择地图上建筑的显示类型，有三种选择: <br><br>0 = 不显示<br>1 = 全部同色 (灰色) <br>2 = 原版样式 (多种颜色) <br>",
+
+    Sandbox_CartographyModifierForestStyleOnWorldMap                   = "地图: 森林显示",
+    Sandbox_CartographyModifierForestStyleOnWorldMap_tooltip           = "FALSE = 地图上将不显示森林和树木.",
+
+    Sandbox_CartographyModifierForestStyleOnWorldMapAdditionalColor          = "地图和迷你地图: 森林色彩校正",
+    Sandbox_CartographyModifierForestStyleOnWorldMapAdditionalColor_tooltip  = "你可以调整森林的色彩校正值，如果亮度非常暗，通过增加此数值，森林会变为灰色: <br><br>0 = 黑色<br>120 = 深灰色<br>150 = 浅灰色<br>",
+
+    Sandbox_CartographyModifierForestStyleOnWorldMapBrightnessfactor         = "地图和迷你地图: 森林亮度调节",
+    Sandbox_CartographyModifierForestStyleOnWorldMapBrightnessfactor_tooltip = "你可以调节森林的亮度，如果接近0并且增加了色彩校正，森林将会变为灰色: <br><br>0 = 非常暗<br>5 = 暗<br>10 = 明亮",
+
+    Sandbox_CartographyModifierWaterStyleOnWorldMap                    = "地图: 水域",
+    Sandbox_CartographyModifierWaterStyleOnWorldMap_tooltip            = "FALSE = 河流, 湖泊和其他各种水体在地图上将不显示.",
+
+    Sandbox_CartographyModifierRoadPrimaryStyleOnWorldMap              = "地图: 主要道路",
+    Sandbox_CartographyModifierRoadPrimaryStyleOnWorldMap_tooltip      = "FALSE = 主要道路在地图上将不显示.",
+
+    Sandbox_CartographyModifierRoadSecondaryStyleOnWorldMap            = "地图: 次要道路",
+    Sandbox_CartographyModifierRoadSecondaryStyleOnWorldMap_tooltip    = "FALSE = 次要道路在地图上将不显示.",
+
+    Sandbox_CartographyModifierRoadTertiaryStyleOnWorldMap             = "地图: 三级道路",
+    Sandbox_CartographyModifierRoadTertiaryStyleOnWorldMap_tooltip     = "FALSE = 三级道路在地图上将不显示.",
+
+    Sandbox_CartographyModifierRoadTrailStyleOnWorldMap                = "地图: 小径",
+    Sandbox_CartographyModifierRoadTrailStyleOnWorldMap_tooltip        = "FALSE = 小径在地图上将不显示.",
+
+    Sandbox_CartographyModifierRailwayStyleOnWorldMap                  = "地图: 铁路",
+    Sandbox_CartographyModifierRailwayStyleOnWorldMap_tooltip          = "FALSE = 铁路在地图上将不显示.",
+
+
+    Sandbox_CartographyModifierBrightnessfactorDarkerMiniMap                    = "更暗迷你地图上结构亮度调节",
+    Sandbox_CartographyModifierBrightnessfactorDarkerMiniMap_tooltip            = "如果存在更暗地图 MOD，并且迷你地图上统一颜色设为 FALSE，则你可以调整迷你地图上结构 (道路, 森林等) 的整体亮度: <br><br>0 = 非常暗<br>5 = 暗<br>10 = 亮<br>",
+
+    Sandbox_CartographyModifierBrightnessBackGroundfactorDarkerMiniMap          = "更暗迷你地图背景亮度调节",
+    Sandbox_CartographyModifierBrightnessBackGroundfactorDarkerMiniMap_tooltip  = "如果存在更暗地图 MOD，则你可以调整迷你地图背景的亮度: <br><br>0 = 非常暗<br>5 = 暗<br>10 = 亮<br>",
+
+    Sandbox_CartographyModifierBrightnessUnvisitefactorDarkerMiniMap            = "更暗迷你地图未探索区域亮度调节",
+    Sandbox_CartographyModifierBrightnessUnvisitefactorDarkerMiniMap_tooltip    = "如果存在更暗地图 MOD，则你可以调整迷你地图及迷你地图上未探索区域 (迷雾部分) 的亮度: <br><br>0 = 非常暗<br>5 = 暗<br>10 = 亮<br>",
+
+
+    Sandbox_CartographyModifierUniformColorOnMiniMap                  = "迷你地图: 统一颜色",
+    Sandbox_CartographyModifierUniformColorOnMiniMap_tooltip          = "你可以在迷你地图上将所有结构 (如道路, 森林等) 设置为统一的颜色: <br><br>TRUE = 全部同色<br>FALSE = 原版样式",
+
+    Sandbox_CartographyModifierAdditionalColorOnMiniMap               = "迷你地图: 全局色彩饱和度设定",
+    Sandbox_CartographyModifierAdditionalColorOnMiniMap_tooltip       = "你可以在迷你地图上设置所有结构的全局色彩饱和度: <br><br>0 = 黑色<br>120 = 深灰色<br>150 = 浅灰色<br>",
+
+    Sandbox_CartographyModifierBuildingStyleOnMiniMap                 = "迷你地图: 建筑显示方式",
+    Sandbox_CartographyModifierBuildingStyleOnMiniMap_tooltip         = "选择迷你地图上建筑的显示类型，有三种选择: <br><br>0 = 不显示<br>1 = 全部同色 (灰色) <br>2 = 原版样式 (多种颜色) <br>",
+
+    Sandbox_CartographyModifierForestStyleOnMiniMap                   = "迷你地图: 森林显示",
+    Sandbox_CartographyModifierForestStyleOnMiniMap_tooltip           = "FALSE = 迷你地图上将不显示森林和树木.",
+
+    Sandbox_CartographyModifierForestStyleOnMiniMapAdditionalColor          = "迷你地图: 森林色彩饱和度调整",
+    Sandbox_CartographyModifierForestStyleOnMiniMapAdditionalColor_tooltip  = "你可以调整森林的色彩饱和度，如果亮度非常暗，通过增加此数值，森林会变为灰色: <br><br>0 = 黑色<br>120 = 深灰色<br>150 = 浅灰色<br>",
+
+    Sandbox_CartographyModifierForestStyleOnMiniMapBrightnessfactor         = "迷你地图: 森林亮度调节",
+    Sandbox_CartographyModifierForestStyleOnMiniMapBrightnessfactor_tooltip = "你可以调节森林的亮度，如果接近0并且增加了色彩饱和度，森林将会变为灰色: <br><br>0 = 非常暗<br>5 = 暗<br>10 = 明亮",
+
+    Sandbox_CartographyModifierWaterStyleOnMiniMap                    = "迷你地图: 水域",
+    Sandbox_CartographyModifierWaterStyleOnMiniMap_tooltip            = "FALSE = 迷你地图上将不显示河流, 湖泊和其他各种水体.",
+
+    Sandbox_CartographyModifierRoadPrimaryStyleOnMiniMap              = "迷你地图: 主要道路",
+    Sandbox_CartographyModifierRoadPrimaryStyleOnMiniMap_tooltip      = "FALSE = 主要道路在迷你地图上将不显示.",
+
+    Sandbox_CartographyModifierRoadSecondaryStyleOnMiniMap            = "迷你地图: 次要道路",
+    Sandbox_CartographyModifierRoadSecondaryStyleOnMiniMap_tooltip    = "FALSE = 次要道路在迷你地图上将不显示.",
+
+    Sandbox_CartographyModifierRoadTertiaryStyleOnMiniMap             = "迷你地图: 三级道路",
+    Sandbox_CartographyModifierRoadTertiaryStyleOnMiniMap_tooltip     = "FALSE = 三级道路在迷你地图上将不显示.",
+
+    Sandbox_CartographyModifierRoadTrailStyleOnMiniMap                = "迷你地图: 小径",
+    Sandbox_CartographyModifierRoadTrailStyleOnMiniMap_tooltip        = "FALSE = 小径在迷你地图上将不显示.",
+
+    Sandbox_CartographyModifierRailwayStyleOnMiniMap                  = "迷你地图: 铁路",
+    Sandbox_CartographyModifierRailwayStyleOnMiniMap_tooltip          = "FALSE = 铁路在迷你地图上将不显示.",
+}
